@@ -505,12 +505,11 @@ img { display: block; max-width: 100%; }
   .header-search { height: 37px; gap: 7px; margin-left: auto; padding: 0 7px 0 10px; }
   .header-search > svg { width: 15px; }
   .header-search input { font-size: 10px; }
-  .header-search input::placeholder { font-size: 0; }
-  .header-search input::placeholder::after { content: 'Tìm món đồ...'; font-size: 10px; }
+  .header-search input::placeholder { font-size: 10px; }
   .header-search kbd, .header-search > button { display: none; }
   .header-actions { display: none; }
   .mobile-menu-button { width: 33px; height: 33px; display: grid; place-items: center; border: 1px solid #e6e4dc; border-radius: 6px; background: #fffefa; color: var(--forest); }
-  .header-subnav { height: 37px; overflow: hidden; width: 100%; padding-inline: 16px; border-top: 1px solid #eeece5; }
+  .header-subnav { display: none; }
   .header-subnav nav { width: max-content; gap: 22px; }
   .header-subnav nav button { flex: 0 0 auto; font-size: 9px; }
   .nav-sell-link { display: none; }
